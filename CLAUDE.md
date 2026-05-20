@@ -8,7 +8,7 @@ GitHub: https://github.com/cosmx6/Website-Project
 
 ## Git workflow
 
-Every meaningful change should be committed and pushed to GitHub:
+**After every piece of work — no exceptions — commit and push to GitHub so progress is never lost and any state can be restored.**
 
 ```
 git add <files>
@@ -16,7 +16,9 @@ git commit -m "concise description of what changed and why"
 git push
 ```
 
-Keep commit messages short and specific (e.g. `add nav bar`, `fix mobile layout`, `update hero copy`). Never use vague messages like `update` or `fix stuff`.
+- Commit after each logical unit of work (new file, feature, fix, config change), not just at the end of a session.
+- Keep commit messages short and specific (e.g. `add nav bar`, `fix mobile layout`, `update hero copy`). Never use vague messages like `update` or `fix stuff`.
+- Never leave uncommitted changes sitting in the working directory.
 
 ## Stack
 
